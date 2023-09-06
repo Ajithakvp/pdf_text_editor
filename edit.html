@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+</head>
+<body >
+    <h1> Text Editor</h1>
+
+    <form action="" method="post">
+        <textarea name="textarea"  id="editor"  class="form-control" >
+            
+        </textarea>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.js" integrity="sha512-docBEeq28CCaXCXN7cINkyQs0pRszdQsVBFWUd+pLNlEk3LDlSDDtN7i1H+nTB8tshJPQHS0yu0GW9YGFd/CRg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="bootstrp/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="bootstrp/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="pdf/src/scss/wysiwyg.scss" rel="stylesheet" />
+    <script src="pdf/src/js/wysiwyg.js"></script>
+    <script src="pdf/gulpfile.js"></script>
+
+
+
+
+    
+    <!-- and it's easy to individually load additional languages -->
+    
+    
+    
+
+ 
+<!-- OPTIONAL Highlight.js -->
+<link href="pdf/dist/css/highlight.css" rel="stylesheet" />
+<link href="pdf/dist/css/highlight.min.css" rel="stylesheet" />
+<link href="pdf/dist/css/wysiwyg.css" rel="stylesheet" />
+<link href="pdf/dist/css/wysiwyg.min.css" rel="stylesheet" />
+<script src="pdf/dist/js/highlight.js"></script>
+<script src="pdf/dist/js/wysiwyg.js"></script>
+<script src="pdf/dist/js/highlight.min.js"></script>
+<script src="pdf/dist/js/wysiwyg.min.js"></script>
+
+
+
+
+
+
+    <script>
+        $(document).ready(function(){
+            $('#editor').wysiwyg();
+
+          
+
+        });
+
+
+       
+
+        
+    </script>
+</body>
+</html>
